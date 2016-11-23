@@ -1,0 +1,56 @@
+
+* {
+  box-sizing: border-box;
+  /* #3. Add box-sizing: border-box; to everything */
+
+}
+
+header, footer {
+  height: 60px;
+  border: 1px solid black;
+}
+
+aside img {
+	max-width: 100%;
+}
+
+/*----------------------------------------------
+  C O L U M N   L A Y O U T
+------------------------------------------------*/
+
+/*
+INSTRUCTIONS:
+STEPS 1 & 2 are in the index.html file & 
+step #3 is at thetop of this file
+*/
+
+
+section {
+  width: 50%;
+  /* #4. Give a width to each column*/
+
+  float: left;
+  /* #6. Float each column to left*/
+
+  padding-right: 10px;
+  /* #7. Give this section a padding-right to add a little space between columns. */
+
+}
+
+aside {
+  width: 25%;
+  /* #5. Give a width to each column*/
+
+  float: right;
+  /* #8. Float each column to left*/
+
+
+}
+
+
+footer {
+  background: #F8CE78;
+  clear: both;
+  /* 9. Clear anything underneath your columns i.e. a footer */
+  
+}
